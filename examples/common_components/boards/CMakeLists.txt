@@ -11,6 +11,8 @@ elseif(CONFIG_BOARD_ESP32_LCDKIT)
     set(boards_dir "esp32-lcdkit")
 elseif(CONFIG_BOARD_ESP32_M5STACK)
     set(boards_dir "esp32-m5stack")
+elseif(CONFIG_BOARD_TTGO_T_DISPLAY_V1)
+    set(boards_dir "ttgo-t-display-v1")
 endif()
 
 message(STATUS "-----------Board Info---------")

@@ -1,4 +1,4 @@
-if BOARD_ESP32_DEVKITC_V4
+if BOARD_TTGO_T_DISPLAY_V1
 
     menu "Board Init Options"
         config BOARD_I2C0_INIT
